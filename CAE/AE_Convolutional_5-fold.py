@@ -32,7 +32,7 @@ trial_name = 'Conv128_GZ1-T2_RGB-' + str(image_size) + 'x-tiff'
 
 image_tuple   = (image_size, image_size, 3)
 images_folder = 'GZ1_T2_' + str(image_size) + 'x_tiff' 
-images_csv = "GZ1_T2_Votes-Scores-Flags.csv"
+images_csv = "GZ1_Expert-flags.csv"
 ###################################################################################################
 #==================================================================================================
 print_header(script_name)
